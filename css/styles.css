@@ -72,103 +72,27 @@
 
 body {
   font-family: "Roboto", "Raleway", sans-serif;
-  font-size: 400;
   color: #434455;
   max-width: 1140px;
   text-align: left;
   border: 5px dashed red;
 }
 
-.toplinemenu {
-  height: 72px;
-  background-color: #ffffff;
-  display: inline;
+ul,
+ol {
+  list-style-type: none;
 }
 
-.logodesign {
-  text-decoration: none;
-  font-family: "Raleway";
-  font-size: 700;
-  text-decoration: none;
-  text-transform: uppercase;
-  color: black;
+h2 {
+  color: #2e2f42;
+  font-size: 300;
 }
 
-.doarweb {
-  color: #4d5ae5;
-  text-transform: uppercase;
+h3 {
+  color: #2e2f42;
+  font-size: 400;
 }
 
-.listof {
-  list-style: none;
-  display: inline;
-}
-
-.bullet {
-  text-decoration: none;
-}
-
-.itemmenu > .bullet {
-  color: #434455;
-}
-
-.itemaddress {
-  color: #434455;
-  text-decoration: none;
-  font-style: normal;
-}
-
-.titlepage {
-  background-color: #2e2f42;
-  height: 600px;
-  color: white;
-  text-align: center;
-}
-
-.orderon {
-  width: 169px;
-  height: 56px;
-  color: white;
-  background-color: #4d5ae5;
-  border: 0;
-  border-radius: 3px;
-  box-shadow: 3px 5px 7px 3px #212121;
-}
-
-.itemstrateg {
-  width: 264px;
-}
-
-.bestteam {
-  background-color: #f4f4fd;
-  height: 732px;
-  text-align: center;
-}
-
-.bluepoint {
-  display: none;
-}
-
-.ourportofolio {
-  text-align: center;
-}
-
-.endhere {
-  max-height: 312px;
-  background-color: #2e2f42;
-  padding: 30px;
-  text-align: left;
-}
-
-.whitestudio {
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-}
-
-.finaltext {
-  color: white;
-  text-align: justify;
-  font-size: 80%;
-  max-width: 264px;
+p {
+  font-size: 400;
 }
