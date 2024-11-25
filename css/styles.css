@@ -76,23 +76,45 @@ body {
   max-width: 1140px;
   text-align: left;
   border: 5px dashed red;
+  background-color: white;
+  padding: 50px;
 }
 
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
   color: #2e2f42;
   font-size: 300;
+  text-align: center;
 }
 
 h3 {
-  color: #2e2f42;
+  color: ##212121;
   font-size: 400;
+  text-indent: 3%;
 }
 
 p {
   font-size: 400;
+  margin-bottom: 35px;
+  text-indent: 3%;
+}}
+
+.our-portofolio {
+  padding: 30px;
+}
+
+.list-of-our-portofolio {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.list-item {
+  border: 2px solid lightgray;
+  width: 364px;
 }
