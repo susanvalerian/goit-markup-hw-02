@@ -75,31 +75,12 @@ body {
   font-size: 400;
   line-height: 1.5;
   color: #434455;
-  text-align: left;
   background-color: white;
-  position: relative;
-  width: 1440px;
-  max-width: 2400px;
-  left: auto;
-  right: auto;
-  top: 0;
-  box-sizing: 1440px;
-  display: flex;
-  align-items: stretch;
-  padding: 30px;
-  flex-direction: column;
-  gap: 20px;
-  border-radius: 3px;
-  box-shadow: none;
-  order: 0;
-  flex-grow: 100%;
-  border-bottom: 3px solid #2e2f42;
 }
 
 .group-list {
   list-style-type: none;
   margin: 0;
-  padding: 0;
 }
 
 .menu {
@@ -125,7 +106,7 @@ body {
 .studio:hover,
 .studio:active,
 .studio:focus {
-  color: #404bbf;
+  color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
 }
@@ -136,6 +117,7 @@ body {
   cursor: pointer;
   font-style: normal;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .address-me:hover,
@@ -149,29 +131,26 @@ body {
 
 .title {
   background-color: #2e2f42;
-  width: 100%;
-  height: 600px;
   text-align: center;
 }
 
 .heading-one {
   color: white;
-  font-size: 100;
-  line-height: 1.5;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .press-me {
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   letter-spacing: 0.04em;
-  width: 159px;
-  height: 56px;
   background-color: #4d5ae5;
   line-height: 1.5;
   border: 0;
-  box-shadow: 3px 3px 12px #212121;
+  /* box-shadow: 3px 3px 12px #212121;
+  border-radius: 3px; */
   color: white;
-  border-radius: 3px;
   cursor: pointer;
 }
 
@@ -188,7 +167,6 @@ body {
   list-style-type: none;
   text-align: center;
   line-height: 1.11em;
-  padding: 80px 0 50px 0;
 }
 
 .heading-three {
@@ -205,38 +183,31 @@ body {
   letter-spacing: 0.02em;
 }
 
-.strategy {
-  padding: 50px 0;
-}
-
-.strategy > .heading-two {
+/* .strategy > .heading-two {
   display: none;
-}
-
-.strategy > .group-list {
-  width: 1128px;
-}
-
-.list-item-strategy {
-  width: 264px;
-}
+} */
 
 .team {
   background-color: #f4f4fd;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .list-item-team {
   border: 2px solid lightgray;
   background-color: white;
-  width: 260px;
-  height: 380px;
+}
+
+.portofolio {
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
 }
 
 .list-item-portofolio {
   border: 2px solid lightgray;
   background-color: #f4f4fd;
-  width: 360px;
-  height: 420px;
 }
 
 .team .heading-three,
@@ -247,10 +218,9 @@ body {
 }
 
 .bottom {
-  color: white;
+  color: #f4f4fd;
   background-color: #2e2f42;
   letter-spacing: 0.02em;
-  padding: 30px;
 }
 
 .bottom .logo {
