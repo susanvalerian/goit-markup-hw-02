@@ -106,7 +106,9 @@
 .logo-web:active,
 .logo-web:focus {
   text-decoration: none;
+  cursor: pointer;
   color: #2e2f42;
+  font-style: normal;
 }
 
 .title {
@@ -120,6 +122,16 @@
   color: white;
   font-size: 100;
   line-height: 1.5;
+}
+
+.press-me {
+  width: 159px;
+  height: 56px;
+  background-color: #4d5ae5;
+  border: 0;
+  box-shadow: 3px 3px 12px #212121;
+  color: white;
+  border-radius: 3px;
 }
 
 .heading-two {
