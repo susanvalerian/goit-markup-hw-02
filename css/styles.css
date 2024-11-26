@@ -77,14 +77,15 @@ body {
   color: #434455;
   text-align: left;
   background-color: white;
-  position: absolute;
+  position: relative;
   width: 1440px;
+  max-width: 2400px;
   left: auto;
   right: auto;
   top: 0;
   box-sizing: 1440px;
   display: flex;
-  align-items: center;
+  align-items: stretch;
   padding: 30px;
   flex-direction: column;
   gap: 20px;
@@ -92,7 +93,7 @@ body {
   box-shadow: none;
   order: 0;
   flex-grow: 100%;
-  border-bottom: 3px;
+  border-bottom: 3px solid #2e2f42;
 }
 
 .group-list {
@@ -249,6 +250,7 @@ body {
   color: white;
   background-color: #2e2f42;
   letter-spacing: 0.02em;
+  padding: 30px;
 }
 
 .bottom .logo {
