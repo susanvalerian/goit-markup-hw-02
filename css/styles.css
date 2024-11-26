@@ -170,6 +170,7 @@ body {
   list-style-type: none;
   text-align: center;
   line-height: 1.11em;
+  letter-spacing: 0.02em;
 }
 
 .heading-three {
