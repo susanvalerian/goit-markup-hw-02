@@ -70,51 +70,120 @@
   font-style: italic;
 }
 
-body {
+.frame {
   font-family: "Roboto", "Raleway", sans-serif;
+  font-size: 400;
+  line-height: 1.5;
   color: #434455;
-  max-width: 1140px;
   text-align: left;
-  border: 5px dashed red;
+  max-width: 1440px;
   background-color: white;
-  padding: 50px;
 }
 
-ul,
-ol {
+.group-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-h2 {
+.menu {
+  heigth: 72px;
+}
+
+.logo {
+  letter-spacing: 3;
+  text-transform: uppercase;
+  text-decoration: none;
   color: #2e2f42;
-  font-size: 300;
+}
+
+.purple-logo {
+  color: #4d5ae5;
+}
+
+.logo-web,
+.logo-web:hover,
+.logo-web:active,
+.logo-web:focus {
+  text-decoration: none;
+  color: #2e2f42;
+}
+
+.title {
+  background-color: #2e2f42;
+  width: 100%;
+  height: 600px;
   text-align: center;
 }
 
-h3 {
+.heading-one {
+  color: white;
+  font-size: 100;
+  line-height: 1.5;
+}
+
+.heading-two {
+  color: #2e2f42;
+  font-size: 300;
+  text-align: center;
+  padding: 80px 0 50px 0;
+  letter-spacing: 1px;
+}
+
+.heading-three {
   color: ##212121;
   font-size: 400;
-  text-indent: 3%;
+  list-style-type: none;
 }
 
-p {
-  font-size: 400;
+.paragraph {
   margin-bottom: 35px;
-  text-indent: 3%;
-}}
-
-.our-portofolio {
-  padding: 30px;
 }
 
-.list-of-our-portofolio {
-  display: inline-flex;
-  gap: 20px;
+.strategy {
+  padding: 50px 0;
 }
 
-.list-item {
-  border: 2px solid lightgray;
-  width: 364px;
+.strategy > .heading-two {
+  display: none;
+}
+
+.strategy > .group-list {
+  width: 1128px;
+}
+
+.list-item-strategy {
+  width: 264px;
+}
+
+.team {
+  background-color: #f4f4fd;
+}
+
+.list-item-team {
+  border: 3px solid lightgray;
+  background-color: white;
+  width: 269px;
+  height: 380px;
+}
+
+.list-item-portofolio {
+  border: 3px solid lightgray;
+  background-color: #f4f4fd;
+  width: 366px;
+  height: 420px;
+}
+
+.team .heading-three,
+.portofolio .heading-three,
+.team .paragraph,
+.portofolio .paragraph {
+  text-indent: 2%;
+}
+
+.bottom {
+  color: white;
+  background-color: #2e2f42;
+  padding: 3%;
+  letter-spacing: 1px;
 }
