@@ -148,8 +148,6 @@ body {
   background-color: #4d5ae5;
   line-height: 1.5;
   border: 0;
-  /* box-shadow: 3px 3px 12px #212121;
-  border-radius: 3px; */
   color: white;
   cursor: pointer;
 }
@@ -182,10 +180,6 @@ body {
   margin-bottom: 35px;
   letter-spacing: 0.02em;
 }
-
-/* .strategy > .heading-two {
-  display: none;
-} */
 
 .team {
   background-color: #f4f4fd;
