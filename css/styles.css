@@ -87,6 +87,10 @@ body {
   heigth: 72px;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -221,6 +225,10 @@ body {
   color: #f4f4fd;
   background-color: #2e2f42;
   letter-spacing: 0.02em;
+}
+
+.bottom .paragraph {
+  color: #f4f4fd;
 }
 
 .bottom .logo {
