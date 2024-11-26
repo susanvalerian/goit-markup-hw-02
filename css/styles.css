@@ -102,13 +102,16 @@ body {
   color: #2e2f42;
 }
 
-.studio,
-.studio:hover,
-.studio:active,
-.studio:focus {
+.studio {
   color: #2e2f42;
   font-weight: 500;
   letter-spacing: 0.02em;
+}
+
+.studio:hover,
+.studio:active,
+.studio:focus {
+  color: #404bbf;
 }
 
 .address-me {
@@ -117,7 +120,6 @@ body {
   cursor: pointer;
   font-style: normal;
   letter-spacing: 0.02em;
-  font-style: normal;
 }
 
 .address-me:hover,
@@ -126,7 +128,6 @@ body {
   text-decoration: none;
   cursor: pointer;
   color: #404bbf;
-  font-style: normal;
 }
 
 .title {
@@ -179,6 +180,7 @@ body {
 .paragraph {
   margin-bottom: 35px;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .team {
@@ -194,9 +196,13 @@ body {
 }
 
 .portofolio {
-  letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  letter-spacing: 0.02em;
+}
+
+.portofolio .paragraph {
+  color: #434455;
 }
 
 .list-item-portofolio {
